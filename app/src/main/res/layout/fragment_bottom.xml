@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#999999"
+                tools:context=".View.BottomFragment">
+
+    <Button
+        android:id="@+id/subscribe_increase_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="订阅+1事件"/>
+
+    <Button
+        android:id="@+id/subscribe_increase_auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/subscribe_increase_one"
+        android:hint="订阅自增事件"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="BottomFragment"/>
+</RelativeLayout>
